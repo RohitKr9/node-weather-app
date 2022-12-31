@@ -1,0 +1,15 @@
+body{
+    margin: 0em;
+}
+
+h1{
+    color: grey;
+}
+
+img{
+    width:150px;
+}
+
+#main-body{
+    background-image: url('C:/Users/computer/Desktop/NODE/web-server/public/img/index-bg.jpg');
+}

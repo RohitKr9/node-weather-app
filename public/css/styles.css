@@ -74,3 +74,36 @@ img{
     font-size: 1.3rem;
     color: #42281c;
 }
+
+@media(max-width: 600px)
+{
+    body{
+        background-color: whitesmoke;
+        margin: 0em;
+    }
+
+    img{
+        width:400px;
+    }
+
+    .message{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        color: #42281c;
+
+    }
+
+    #index-form-input{
+        border: solid #888888;
+        padding: 4px;
+        font-size: 1rem;
+    }
+    
+    #submit{
+        border: solid #888888;
+        color: #888888;
+        font-size: 1rem;
+    }
+    
+}

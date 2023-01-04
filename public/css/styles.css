@@ -17,14 +17,20 @@ a:link{
 body{
     background-color: aliceblue;
     margin: 0em;
+    text-align: center;
 }
 
 h1{
     color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img{
     width:150px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #nav-bar{
@@ -64,8 +70,9 @@ img{
 }
 
 #submit{
+    background-color: #888888;
     border: solid #888888;
-    color: #888888;
+    color: whitesmoke;
 }
 
 .message{
@@ -101,8 +108,9 @@ img{
     }
     
     #submit{
+        background-color: #888888;
         border: solid #888888;
-        color: #888888;
+        color: whitesmoke;
         font-size: 1rem;
     }
     

@@ -12,6 +12,9 @@ const forecast=(location,callback)=>{
             data={
                 temp: response.body.currentConditions.temp,
                 humidity: response.body.currentConditions.humidity,
+                sunrise:response.body.currentConditions.sunrise,
+                sunset:response.body.currentConditions.sunset,
+                windspeed:response.body.currentConditions.windspeed,
                 condition: response.body.currentConditions.conditions,
                 address: response.body.resolvedAddress
             }
